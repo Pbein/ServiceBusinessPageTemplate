@@ -54,7 +54,7 @@ function Navbar() {
             <div className="flex justify-center md:block">
               <Link
                 to="/booking"
-                className="relative text-white dark:text-gray-200 hover:text-blue-500 dark:hover:text-indigo-400"
+                className="relative text-black dark:text-gray-200 hover:text-blue-500 dark:hover:text-indigo-400"
               >
                 <Button>Book Now</Button>   
               </Link>

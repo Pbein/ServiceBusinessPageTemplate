@@ -5,7 +5,7 @@ type ButtonProps = {
   };
   
   const Button = ({ children, type = 'button', className , ...props }: ButtonProps) => {
-    const buttonClass = `bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded ${className || ''}`;
+    const buttonClass = `bg-orange-500 hover:bg-orange-600 text-black font-bold py-2 px-4 rounded ${className || ''}`;
     
     return (
       <button type={type} className={buttonClass} {...props}>

@@ -1,4 +1,15 @@
-// import { Link } from "react-router-dom";
+import { FiAward, FiUsers, FiClock } from 'react-icons/fi'; // Example icons
+
+// Reusable card component
+const Card = ({ title, icon: Icon, children }) => (
+  <div className="flex flex-col items-center justify-center space-y-4 border rounded-lg p-4 bg-blue-100 bg-opacity-85 shadow-xl shadow-slate-500">
+    <Icon className="h-10 w-10" />
+    <h3 className="text-lg font-bold">{title}</h3>
+    <p className="text-gray-600 font-semibold dark:text-gray-400">
+      {children}
+    </p>
+  </div>
+);
 
 function AboutSection() {
   return (

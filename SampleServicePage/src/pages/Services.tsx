@@ -1,34 +1,37 @@
 import { FiHelpCircle } from "react-icons/fi"; // Feather Icons
-import { FiCode } from 'react-icons/fi'; // Feather Icons
+import { FiCode } from "react-icons/fi"; // Feather Icons
 import { FiLock } from "react-icons/fi"; // Feather Icons
 import { FiCloud } from "react-icons/fi"; // Feather Icons
 import { FiClipboard } from "react-icons/fi";
 
 // Card component
 const Card = ({ children }: { children: React.ReactNode }) => (
-    <div className="border rounded-lg p-4 shadow-lg bg-white">
-      {children}
-    </div>
-  );
-  
-  // CardContent component
+  <div className="border rounded-lg p-4 shadow-lg bg-white">{children}</div>
+);
+
+// CardContent component
 const CardContent = ({ children }: { children: React.ReactNode }) => (
-    <div className="flex flex-col items-center justify-center space-y-4">
-      {children}
-    </div>
-  );
+  <div className="flex flex-col items-center justify-center space-y-4">
+    {children}
+  </div>
+);
 
 function Services() {
   return (
     <>
-      <section className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center" 
-    style={{
-        backgroundImage: `url(./src/assets/images/SampleBackground2.png)`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-      }}
+      <div className="pt-4">
+        {" "}
+        {/* This adds 100 pixels of padding to the top */}
+      </div>
+      <section
+        className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center"
+        style={{
+          backgroundImage: `url(./src/assets/images/SampleBackground2.png)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
       >
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -68,7 +71,7 @@ function Services() {
             <div className="space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                    Plans & Pricing
+                  Plans & Pricing
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   We offer a variety of plans to meet your needs.

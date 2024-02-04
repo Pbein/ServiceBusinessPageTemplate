@@ -16,7 +16,7 @@ function HeroSection() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Build your component library
+                  Build your path to success
                 </h1>
                 <p className="mx-auto max-w-[700px] md:text-xl dark:text-gray-400">
                   Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open
