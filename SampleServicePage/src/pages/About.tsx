@@ -20,17 +20,26 @@ const Card = ({
 const About = () => {
   return (
     <>
-    <div className="pt-16">
+      <div className="pt-16">
         {" "}
         {/* This adds 100 pixels of padding to the top */}
       </div>
       {/* Introduction Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-blue-100 bg-opacity-50">
+      <section
+        className="w-full py-12 md:py-24 lg:py-32 bg-blue-100 bg-opacity-50"
+        style={{
+          backgroundImage: `url(src/assets/images/SampleBackground1.png)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
+      >
         <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center h-full text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             About Sample Services
           </h2>
-          <p className="max-w-[600px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="max-w-[600px] mx-auto font-bold md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             Dedicated to excellence in service since 2010.
           </p>
         </div>
@@ -78,13 +87,22 @@ const About = () => {
       </section>
 
       {/* Team Showcase */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-blue-100 bg-opacity-50">
+      <section
+        className="w-full py-12 md:py-24 lg:py-32 bg-blue-100 bg-opacity-50"
+        style={{
+          backgroundImage: `url(src/assets/images/SampleBackground3.png)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
+      >
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Meet the Team
             </h2>
-            <p className="max-w-[600px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="max-w-[600px] mx-auto md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               A group of passionate individuals behind our success.
             </p>
           </div>
