@@ -2,9 +2,11 @@ import { Route, Routes } from "react-router-dom"
 import Navbar from "./components/layout/Navbar"
 import Footer from "./components/layout/Footer"
 import { Home, Services, Contact, Booking, About } from "./pages"
+import useScrollToTop from "./hooks/useScrollToTop"
 
 
 function App() {
+  useScrollToTop();
 
   return (
     <>
